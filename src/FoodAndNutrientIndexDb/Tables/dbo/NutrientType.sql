@@ -1,5 +1,6 @@
 ﻿CREATE TABLE [dbo].[NutrientType]
 (
-	[NutrientTypeId] INT NOT NULL PRIMARY KEY, 
-    [Description] VARCHAR(50) NULL
-)
+	[NutrientTypeId] INT IDENTITY(1,1) NOT NULL, 
+    [Description] VARCHAR(50) NULL,
+	CONSTRAINT [PK_NutrientType_NutrientTypeId] PRIMARY KEY CLUSTERED([NutrientTypeId])
+);
