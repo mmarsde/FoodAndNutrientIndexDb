@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FoodAndNutrientIndex", "FoodAndNutrientIndex.sqlproj", "{C90101A8-C05E-4738-9B9B-50F92D0C3146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C90101A8-C05E-4738-9B9B-50F92D0C3146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90101A8-C05E-4738-9B9B-50F92D0C3146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90101A8-C05E-4738-9B9B-50F92D0C3146}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C90101A8-C05E-4738-9B9B-50F92D0C3146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90101A8-C05E-4738-9B9B-50F92D0C3146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90101A8-C05E-4738-9B9B-50F92D0C3146}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6B4A36A-38F0-4C44-A13F-3EF1F3AE728D}
+	EndGlobalSection
+EndGlobal
