@@ -9,3 +9,15 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+                                                                                                               
+print 'Start.... Running PopulateFoodGroup.sql';
+:r .\PopulateFoodGroupType.sql
+print 'Finish... Running PopulateFoodGroup.sql';
+
+print 'Start.... Running PopulateNutrientType.sql';
+:r .\PopulateNutrientType.sql
+print 'Finish... Running PopulateNutrientType.sql';
+
+print 'Start.... Running PopulateNutrient.sql';
+:r .\PopulateNutrient.sql
+print 'Finish... Running PopulateNutrient.sql';
