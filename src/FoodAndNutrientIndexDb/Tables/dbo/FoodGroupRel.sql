@@ -1,6 +1,6 @@
-﻿CREATE TABLE [dbo].[FoodGroupRel]
+CREATE TABLE [dbo].[FoodGroupRel]
 (
-	[FoodGroupRelId] INT IDENTITY(1, 1) NOT NULL, 
+    [FoodGroupRelId] INT IDENTITY(1, 1) NOT NULL, 
     [ParentFoodGroupId] INT NOT NULL, 
     [FoodGroupId] INT NOT NULL,
     CONSTRAINT [PK_FoodGroupRel_FoodGroupRelId] PRIMARY KEY CLUSTERED([FoodGroupRelId]),
