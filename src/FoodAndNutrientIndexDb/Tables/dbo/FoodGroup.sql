@@ -1,6 +1,6 @@
-﻿CREATE TABLE [dbo].[FoodGroup]
+CREATE TABLE [dbo].[FoodGroup]
 (
-	[FoodGroupId] INT IDENTITY(1, 1) NOT NULL, 
+    [FoodGroupId] INT IDENTITY(1, 1) NOT NULL, 
     [Description] VARCHAR(100) NULL, 
     [Code] CHAR(10) NOT NULL, 
     [FoodGroupTypeId] INT NOT NULL,
