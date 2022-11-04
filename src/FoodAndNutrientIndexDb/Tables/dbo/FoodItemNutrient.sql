@@ -1,6 +1,6 @@
-﻿CREATE TABLE [dbo].[FoodItemNutrient]
+CREATE TABLE [dbo].[FoodItemNutrient]
 (
-	[FoodItemNutrientId] INT IDENTITY(1, 1) NOT NULL, 
+    [FoodItemNutrientId] INT IDENTITY(1, 1) NOT NULL, 
     [FoodItemId] INT NOT NULL, 
     [NutrientId] INT NOT NULL, 
     [Value] FLOAT NULL,
